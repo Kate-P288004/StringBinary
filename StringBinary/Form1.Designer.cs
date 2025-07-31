@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnConvert_Click = new System.Windows.Forms.Button();
@@ -39,7 +40,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(59, 17);
+            this.label1.Location = new System.Drawing.Point(39, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(171, 26);
             this.label1.TabIndex = 0;
@@ -49,7 +50,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(39, 166);
+            this.label2.Location = new System.Drawing.Point(39, 184);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(191, 26);
             this.label2.TabIndex = 2;
@@ -78,7 +79,7 @@
             // 
             // txtOutput
             // 
-            this.txtOutput.Location = new System.Drawing.Point(42, 200);
+            this.txtOutput.Location = new System.Drawing.Point(42, 213);
             this.txtOutput.Name = "txtOutput";
             this.txtOutput.Size = new System.Drawing.Size(532, 102);
             this.txtOutput.TabIndex = 8;
@@ -88,8 +89,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.MistyRose;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(645, 388);
             this.Controls.Add(this.txtOutput);
             this.Controls.Add(this.txtInput);

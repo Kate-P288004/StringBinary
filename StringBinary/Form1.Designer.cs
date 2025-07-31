@@ -59,9 +59,10 @@
             // btnConvert_Click
             // 
             this.btnConvert_Click.BackColor = System.Drawing.Color.LightCoral;
+            this.btnConvert_Click.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnConvert_Click.BackgroundImage")));
             this.btnConvert_Click.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConvert_Click.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnConvert_Click.Location = new System.Drawing.Point(497, 321);
+            this.btnConvert_Click.Location = new System.Drawing.Point(475, 332);
             this.btnConvert_Click.Name = "btnConvert_Click";
             this.btnConvert_Click.Size = new System.Drawing.Size(130, 35);
             this.btnConvert_Click.TabIndex = 4;

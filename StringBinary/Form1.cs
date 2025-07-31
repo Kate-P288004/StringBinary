@@ -31,6 +31,16 @@ namespace StringBinary
             // c# string to binary
             txtOutput.Text = StringToBinary(txtInput.Text);
         }
+
+        private void txtInput_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtOutput_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
